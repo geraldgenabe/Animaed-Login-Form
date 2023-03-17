@@ -92,7 +92,6 @@ nav .logo {
     nav .openMenu {
         display: block;
     }
-
     nav .mainMenu li a:hover {
         background: none;
         color: #1B98E0;
@@ -119,14 +118,8 @@ main {
     background: #23242a;
 }
 
-@media (max-width: 768px) {
-    main {
-        padding-top: 600px;
-    }
-}
-
 .box {
-    position: relative;
+    position: fixed;
     width: 380px;
     height: 420px;
     background: #1c1c1c;
